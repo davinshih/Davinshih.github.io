@@ -144,13 +144,17 @@ h1, h2, h3, h4, h5, .side-nav a {
 
 /*Triangle*/
 .parallaxDiv {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   background-image: url('../img/watercolor.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
 
 .btn-floating {
+  opacity: 0.5;
+}
+
+svg {
   opacity: 0.5;
 }
